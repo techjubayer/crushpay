@@ -1,0 +1,146 @@
+.rc_from_container {
+    box-shadow: 2px 5px 15px rgba(0, 0, 0, 0.205);
+    border-radius: .5rem;
+    margin: 2rem auto;
+    padding: 0;
+    /* padding-bottom: 100px; */
+    overflow: hidden;
+}
+
+.rc_header {
+    padding: 1rem 0 0 1rem;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.205);
+    border-radius: .5rem .5rem 0 0;
+    background-color: var(--clr-logo);
+    position: relative;
+}
+
+.rc_header>div {
+    color: white;
+}
+
+.rc_header_balance {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.rc_header_balance>p {
+    margin: 0;
+    font-size: 14px;
+}
+
+.rc_header_balance>p:last-child {
+    font-size: 18px;
+}
+
+
+.rc_header_icon {
+    width: fit-content;
+    /* width: 20%; */
+}
+
+.rc_icon {
+    color: white;
+    /* border: 1px solid black; */
+    padding: .5rem 1.5rem;
+    border-radius: .5rem .5rem 0 0;
+    font-size: 30px;
+}
+
+.rc_icon:first-child>i {
+    font-size: 40px;
+}
+
+.rc_icon:first-child.active {
+    background-color: white;
+    color: var(--clr-logo);
+    box-shadow: inset 3px 5px 5px rgba(0, 0, 0, 0.205);
+}
+
+.rc_icon:last-child.active {
+    background-color: white;
+    color: var(--clr-logo);
+    box-shadow: inset 3px 5px 5px rgba(0, 0, 0, 0.205);
+}
+
+.rc_body {
+    padding: 2rem;
+}
+
+
+
+.rc_body>div {
+    width: 45%;
+}
+
+#view_plan {
+    cursor: pointer;
+}
+
+
+/* PopUp Scroll Tab-----------------------------START */
+
+.planbody {
+    overflow-x: auto !important;
+}
+
+.plan_head {
+    padding-top: 1rem;
+}
+
+.popupbody.plan_container {
+    padding-top: 0 !important;
+}
+
+@media only screen and (max-width: 768px) {
+    .page-link-recharge {
+        vertical-align: middle;
+    }
+    .plan_desc{
+        
+    }
+}
+
+
+
+/* PopUp Scroll Tab-----------------------------END */
+
+
+
+
+@media only screen and (max-width: 992px) {
+
+    .rc_body {
+        padding: .8rem;
+    }
+
+    .rc_from_container {
+        width: 95%;
+    }
+
+    .rc_header {
+        padding: 1rem 0 0 1rem;
+    }
+
+    .rc_body>div {
+        width: 100%;
+    }
+
+    .rc_form {
+        margin-bottom: 2rem;
+    }
+
+    .rc_header_balance {
+        right: 1rem;
+    }
+
+    .input_my_style>label,
+    .input_my_style.selection>select {
+        font-size: .9rem;
+    }
+}

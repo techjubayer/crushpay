@@ -1,0 +1,65 @@
+
+
+
+
+.replace_popup.hide{
+	display: none;
+}
+
+
+
+
+
+
+
+
+.pop_head_comm.hide{
+	display: none;
+}
+
+.popupbody>div>form>div>.password_eye>i {
+	left: 90%;
+	cursor: pointer;
+}
+
+.loginactivity h6 {
+    color: var(--clr-logo);
+    margin-right: 1rem;
+	text-align: end;
+}
+.loginactivity>button {
+	width: 30% !important;
+}
+
+/* Reset popup style START----------------*/
+
+.otp-verify-div>h5,
+.otp-verify-div>p {
+	color: #0e406a;
+	text-align: center
+}
+
+.otp-verify-div>div {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: var(--input-margin-bottom);
+}
+
+.otp-verify-div>div>input {
+	/* width: 20%; */
+	max-width: 30px;
+    margin: 2px;
+	font-size: var(--input-font-size);
+	border: 1px solid var(--clr-logo);
+	border-radius: 10px;
+	color: var(--clr-logo);
+	outline: none;
+	text-align: center;
+	background: none;
+}
+.loginactivity > div > button{
+    padding: 0 10px;
+}
+
+/* Reset popup style END -----------------*/
+
